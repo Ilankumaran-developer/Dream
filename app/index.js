@@ -3,13 +3,14 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Register from './register.jsx';
-import NavigationMenu from './navigation.jsx';
+
+
+import Routing from './router';
 
 
 
 
 window.onload = () => {
     ReactDOM.render(
-        <NavigationMenu/>, document.getElementById('app'));
+        <Routing/>, document.getElementById('app'));
 };
