@@ -5,7 +5,7 @@ app.use((req,res)=>{
   res.sendFile('index.html',{root:'.'})
 })
 
-app.listen(1200,(err)=>{
+app.listen(process.env.PORT || 1200,(err)=>{
   if(err)
   {
     console.log(err);
