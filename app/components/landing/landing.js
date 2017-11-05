@@ -1,7 +1,9 @@
-import React from 'react';
+  import React from 'react';
 import NavigationMenu from '../common/navigation'
 
+
 class Landing extends React.Component{
+
 
   render(){
 
